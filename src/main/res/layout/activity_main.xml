@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/tvTitulo" />
+
+    <EditText
+        android:id="@+id/etDocumento2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:textSize="16sp"
+        android:hint="@string/etDocumento"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etNombres2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:textSize="16sp"
+        android:hint="@string/etNombres"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etApellidos2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:textSize="16sp"
+        android:hint="@string/etApellidos"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etUsuario2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:textSize="16sp"
+        android:hint="@string/etUsuario"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etContra2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:textSize="16sp"
+        android:hint="@string/etContra"
+        android:inputType="text" />
+
+    <TableRow
+        android:id="@+id/TableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_boton"
+            android:layout_weight="1"
+            android:text="@string/btnRegistrar" />
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_boton"
+            android:layout_weight="1"
+            android:text="@string/btnBuscar" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <Button
+            android:id="@+id/btnListar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_boton"
+            android:layout_weight="1"
+            android:text="@string/btnListar" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/lvList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

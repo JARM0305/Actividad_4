@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CrudAndroid</string>
+    <string name="tvTitulo">Registro de Usuarios</string>
+    <string name="etDocumento">DOCUMENTO</string>
+    <string name="etNombres">NOMBRES</string>
+    <string name="etApellidos">APELLIDOS</string>
+    <string name="etUsuario">USUARIO</string>
+    <string name="etContra">CONTRASEÑA</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnListar">Listar</string>
+    <string name="tvTitulo2">Gestión de Usuarios</string>
+    <string name="btnBuscarUsu">Buscar Usuario</string>
+    <string name="btnEditarUsu">Editar Usuario</string>
+    <string name="etDocumento2">INGRESE UN DOCUMENTO (Buscar)</string>
+    <string name="btnInactivar">Inactivar Usuario / Listar Inactivos</string>
+    <string name="btnVolver">Volver</string>
+</resources>
